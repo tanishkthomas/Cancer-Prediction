@@ -9,7 +9,7 @@ Algorithms used and their Accuracy
 5. Naive Bayes              : 95.71%
 6. Support Vector Machine   : 97.14%
 
-Artificial Neural Network 
-Number of Layers - 3
+# Artificial Neural Network 
 
-Accuracy - 97.85%
+  Number of Layers - 3
+  Accuracy - 97.85%
