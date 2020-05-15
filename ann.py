@@ -1,14 +1,3 @@
-# Artificial Neural Network
-
-# Installing Theano
-# pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
-
-# Installing Tensorflow
-# Install Tensorflow from the website: https://www.tensorflow.org/versions/r0.12/get_started/os_setup.html
-
-# Installing Keras
-# pip install --upgrade keras
-
 # Part 1 - Data Preprocessing
 
 # Importing Libraries
@@ -34,16 +23,6 @@ y = labelencoder_y.fit_transform(y)
 # Splitting the dataset into the Training set and Test set
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
-
-'''# Encoding Categorical DATA
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder
-labelencoder_y = LabelEncoder()
-y[:, 1] = labelencoder_y.fit_transform(y[:, 1])'''
-'''labelencoder_X_2 = LabelEncoder()
-X[:, 2] = labelencoder_X_2.fit_transform(X[:, 2])
-onehotencoder = OneHotEncoder(categorical_features=[1])
-X = onehotencoder.fit_transform(X).toarray()
-X = X[:, 1:] #Dummy Variable Trap'''
 
 # Feature Scaling
 from sklearn.preprocessing import StandardScaler #class
