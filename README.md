@@ -11,4 +11,5 @@ Algorithms used and their Accuracy
 
 Artificial Neural Network 
 Number of Layers - 3
+
 Accuracy - 97.85%
